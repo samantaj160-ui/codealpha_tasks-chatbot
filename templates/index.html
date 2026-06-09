@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>AI FAQ Assistant</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="sidebar">
+
+        <h2>Available FAQs</h2>
+
+        <ul id="faq-list"></ul>
+
+        <div class="faq-form">
+
+            <h3>Add FAQ</h3>
+
+            <input
+                type="text"
+                id="new-question"
+                placeholder="Question"
+            >
+
+            <textarea
+                id="new-answer"
+                placeholder="Answer"
+            ></textarea>
+
+            <button onclick="addFAQ()">
+                Add FAQ
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="chat-section">
+
+        <div class="header">
+            AI FAQ Assistant
+        </div>
+
+        <div id="chat-box"></div>
+
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="user-input"
+                placeholder="Ask a question..."
+            >
+
+            <button onclick="sendMessage()">
+                Send
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

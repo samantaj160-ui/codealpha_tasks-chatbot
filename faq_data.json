@@ -1,0 +1,46 @@
+[
+    {
+        "question": "What is Artificial Intelligence?",
+        "answer": "Artificial Intelligence is the simulation of human intelligence in machines."
+    },
+    {
+        "question": "What is Machine Learning?",
+        "answer": "Machine Learning is a subset of AI that enables systems to learn from data."
+    },
+    {
+        "question": "What is Deep Learning?",
+        "answer": "Deep Learning is a type of machine learning that uses neural networks."
+    },
+    {
+        "question": "What is NLP?",
+        "answer": "Natural Language Processing helps computers understand human language."
+    },
+    {
+        "question": "Who developed Python?",
+        "answer": "Python was developed by Guido van Rossum."
+    },
+    {
+        "question": "What is Flask?",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "What is HTML?",
+        "answer": "HTML stands for HyperText Markup Language."
+    },
+    {
+        "question": "What is CSS?",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "What is JavaScript?",
+        "answer": "JavaScript is used to make websites interactive."
+    },
+    {
+        "question": "What is GitHub?",
+        "answer": "GitHub is a platform for hosting and managing code repositories."
+    },
+    {
+        "question": "What is Python?",
+        "answer": "Python is a versatile, high-level programming language known for it's simple readable syntax."
+    }
+]

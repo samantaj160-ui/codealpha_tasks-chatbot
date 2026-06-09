@@ -1,0 +1,130 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+height:100vh;
+background:#f4f6f9;
+}
+
+.container{
+display:flex;
+height:100vh;
+}
+
+.sidebar{
+width:320px;
+background:#1f2937;
+color:white;
+padding:20px;
+overflow:auto;
+}
+
+.sidebar h2{
+margin-bottom:20px;
+}
+
+.sidebar ul{
+padding-left:20px;
+margin-bottom:25px;
+}
+
+.sidebar li{
+margin-bottom:10px;
+}
+
+.faq-form{
+margin-top:20px;
+}
+
+.faq-form input,
+.faq-form textarea{
+width:100%;
+padding:10px;
+margin-top:10px;
+border:none;
+border-radius:8px;
+}
+
+.faq-form button{
+margin-top:10px;
+width:100%;
+padding:12px;
+background:#2563eb;
+color:white;
+border:none;
+cursor:pointer;
+border-radius:8px;
+}
+
+.chat-section{
+flex:1;
+display:flex;
+flex-direction:column;
+}
+
+.header{
+padding:20px;
+background:white;
+font-size:24px;
+font-weight:bold;
+border-bottom:1px solid #ddd;
+}
+
+#chat-box{
+flex:1;
+padding:20px;
+overflow-y:auto;
+}
+
+.user{
+text-align:right;
+margin:15px;
+}
+
+.bot{
+text-align:left;
+margin:15px;
+}
+
+.user span{
+background:#2563eb;
+color:white;
+padding:12px;
+border-radius:12px;
+display:inline-block;
+}
+
+.bot span{
+background:#e5e7eb;
+padding:12px;
+border-radius:12px;
+display:inline-block;
+}
+
+.input-area{
+display:flex;
+padding:15px;
+background:white;
+border-top:1px solid #ddd;
+}
+
+.input-area input{
+flex:1;
+padding:12px;
+border:1px solid #ccc;
+border-radius:8px;
+}
+
+.input-area button{
+margin-left:10px;
+padding:12px 20px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
